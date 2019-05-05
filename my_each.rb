@@ -1,7 +1,8 @@
 def my_each(words)
   counts = 0
-yieling {print "YES"}
+
   while counts < words.length
+    yieling {print "YES"}
     counts += 1
   end
   words
