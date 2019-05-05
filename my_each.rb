@@ -7,3 +7,10 @@ def my_each(words)
   end
   words
 end
+
+my_each(words) do
+  |words|
+    if words.length > counts
+      counts += 1
+    end
+end
