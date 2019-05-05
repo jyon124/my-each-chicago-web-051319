@@ -3,4 +3,5 @@ def my_each(words)
   while counts < 10
     counts += 1
   end
+  words
 end
