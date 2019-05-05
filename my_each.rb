@@ -2,7 +2,7 @@ def my_each(words)
   counts = 0
 
   while counts < words.length
-    yielding_with_arguments(words) {|words| words + "!"}
+    yielding_with_args(words) {|words| words + "!"}
     counts += 1
   end
   words
